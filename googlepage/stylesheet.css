@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(255, 255, 255);
+    background-position: fixed;
+}
+header{
+    float: right;
+    padding-left:25px;
+
+}
+input{
+    width:800px;
+    height:50px;
+}
+div{
+    margin-top: 70px;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+#spleft{
+    float:left;
+}
+#spright{
+    float:right;
+}
+h1{
+    margin-top: -50px;
+    padding-left: 300px;
+    
+}

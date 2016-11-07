@@ -1,0 +1,345 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+
+        <style>
+        .jumbotron {
+          background-color: #9bcd8d;
+          height: 450px;
+        }
+        h3{
+          color: white;
+        }
+        
+       strong{
+          color:red;
+          font-size: 20px;
+       }
+       button{
+           border-radius:50px;
+        }
+        #topmost{
+       float:right;
+         }
+         #login{
+        float:right;
+         }
+         .radius{
+          border-radius: 20px;
+         }
+         img{
+           transition:all.2s ease-in-out;
+          }
+          img:hover{transform:scale(1.2);
+          }
+
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+        <div class="container">
+        <span id="topmost">
+        <i class="glyphicon glyphicon-earphone">223-550-2356</i>&nbsp;
+        <i class="glyphicon glyphicon-envelope">info@gmail.com</i>
+        </span>
+        <div class="well">
+        <span><br>
+        <p id="first"><strong>BRAND</strong>LOGO
+        <span id="login">
+        <i class="glyphicon glyphicon-shopping-cart"></i>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-open">LOGIN
+</button>
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#register-open">REGISTER &raquo;</button>
+        </span>
+        </p>
+        </span>
+        </div>
+        </div>
+        </header>
+        <div  id ="modal-open"class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">LOGIN</h4>
+      </div>
+      <div class="modal-body">
+        <form class="infos">
+        <input type="name" placeholder="Full Name">
+        <br>
+        <br>
+        <input type="email" placeholder="Enter Email">
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <br>
+        </form>
+       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Login</button>
+        <a href="#">Forgot Password?</a>
+      </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+ <div  id ="register-open"class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">REGISTRATION</h4>
+      </div>
+      <div class="modal-body">
+        <form class="infos">
+        <input type="name" placeholder="Surname">
+        <br>
+        <br>
+        <input type="other" placeholder="Other Names">
+        <br>
+        <br>
+        <input type="num" placeholder="Mobile">
+        <br>
+        <br>
+        <input type="email" placeholder="Enter Email">
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <br>
+        <input type="retype" placeholder="Retype-Password">
+        <br>
+        <br>
+        </form>
+       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Register</button>
+      </div>
+      </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+        <div class="container">
+        <nav class="navbar navbar-default">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <div class="navbar-brand">MENU</div>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav nav-pills">
+        <li role="presentation"><a href="#">PRODUCTS</a></li>
+        <li role="presentation"><a href="#">COMPANIES</a></li>
+        <li role="presentation"><a href="#">SERVICES</a></li>
+        <li role="presentation"><a href="#">BRANDS</a></li>
+        <li role="presentation"><a href="#">ABOUT US</a></li>
+        <form class="navbar-form navbar-right" role="search">
+         <div class="form-group">
+       <input type="text" class="form-control" placeholder="Search">
+         </div>
+       <i class="glyphicon glyphicon-search"></i>
+     </form>
+</ul>
+</nav>
+</div>
+
+    <div class="jumbotron">
+      <div class="container">
+      <img src="../image/sneakers.png" class="pull-right">
+        <h1>WILL<br>HELM</h1>
+        <h3>WINTER</h3>
+        <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+       <div class="row" align="center">  
+         <div class="col-md-4">
+           <div class = "thumbnail">
+             <h2>WOMAN</h2>
+           <img src="../image/female shoe.jpg" class="img-circle" width="162" height="162">
+           <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+           </div>  
+       </div>
+       <div class="col-md-4" >
+           <div class = "thumbnail">
+             <h2>MEN</h2>
+           <img src="../image/male shoe.jpg" class="img-circle" width="450" height="450">
+           <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+           </div>  
+       </div>
+       <div class="col-md-4" >
+           <div class = "thumbnail">
+             <h2>KIDS</h2>
+           <img src="../image/kid image.jpg" class="img-circle" width="280" height="280">
+           <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+           </div>  
+       </div>
+       </div>
+     </div>
+     <div class="container">
+      <span><p id="SP"> SPECIAL <strong>PRODUCTS</strong> <a href="#" class="pull-right"> view all products</a></p></span>
+      </div>
+      <div class="container">
+    <div class="row well" align="center">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+<button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+                 <div class="btn-group" id="BT">
+        <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+        </div>
+           </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+             <h2>KIDS</h2>
+             <img class="img-responsive" src="../image/kid image.jpg" >
+             <p> <strong>TOTAL</strong><br>
+                 357 PRODUCTS</p>
+            <div class="btn-group" id="BT">
+              <button class="btn btn-danger radius">99.90$  |  GET NOW&raquo;</button>
+            </div>
+           </div>
+
+           </div>
+           </div>
+           <footer>
+             <div class="well" align="center">
+             <span><br>
+             <p id="first"><strong>BRAND</strong>LOGO &nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Fax<a/>| <a href="#">Terms and Conditions</a>|<a href="#">Secure Payments</a>|<a href="#">Shipping</a>|<a href="#">Contacts</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+             <a href="#"><img src="../image/facebook-icons.png" width="50" height="50"></a>
+             <a href="#"><img src="../image/instagram-icon.png" width="50" height="50"></a>
+             <a href="#"><img src="../image/twitter-icon.png" width="50" height="50"></a>
+             </p>
+              <p>&copy; DEBOLA_CEO 2016</p>
+             </span>
+           </footer>
+           
+
+          <!-- <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2015</p>
+      </footer>
+    </div> 
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        
+    </body>
+</html>
+
+<!-- /container -->       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+       <script src="js/vendor/bootstrap.min.js"></script>
+
+       <script src="js/main.js"></script>
+ 
